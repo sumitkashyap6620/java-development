@@ -1,7 +1,6 @@
 // multilevel inheritance in java
-
+import tools.*;
 //   Calculator (parent of calcy) <- calcy(child of Calculator && parent of advcal) <- advcal(child of calcy)
-
 public class advcal extends calcy{
        public advcal(){
         //  by default function is super which called at the  time of object creation

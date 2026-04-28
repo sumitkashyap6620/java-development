@@ -1,3 +1,4 @@
+ package tools ;
  public class Calculator{
     public Calculator(){
       super();
@@ -6,16 +7,16 @@
        public Calculator(int x){
       System.out.println("this is calculator2.0");
     }
-      int count ;
+    public  int count ;
      private int amount = 5;
-     int total(){
+     public int total(){
         return count*amount ;
      }
-     int getamount(){
+    public int getamount(){
       return amount ;
      }
-   void setamount(int x){
+  public  void setamount(int x){
        amount = x ;
     }
-
+    
 }
