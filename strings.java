@@ -9,6 +9,9 @@ public class strings{
         sb.append(" rajput");
         sb.insert(2, "mi");
         sb.deleteCharAt(9);
-        System.out.print(sb);
+        System.out.println("sb = "+sb);
+        StringBuilder SB = new StringBuilder();
+        SB.append("SUMIT KASHYAP");
+         System.out.print("SB = "+sb);
     }
 }
