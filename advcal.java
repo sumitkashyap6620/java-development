@@ -1,7 +1,7 @@
 // multilevel inheritance in java
-import tools.*;
+
 //   Calculator (parent of calcy) <- calcy(child of Calculator && parent of advcal) <- advcal(child of calcy)
-public class advcal extends calcy{
+public class advcal extends Calculator{
        public advcal(){
         //  by default function is super which called at the  time of object creation
             super(2);
@@ -16,11 +16,10 @@ public class advcal extends calcy{
        x.count = 15 ;
          System.out.println(x.getamount());
          System.out.println(x.total());
-         calcy c1 = new calcy();
+         Calculator c1 = new Calculator();
          c1.count = 5 ;
-         c1.price1 = 15 ;
-         c1.price2 = 25 ;
+       
         System.out.println(c1.total());
-        System.out.println(c1.sum());
+      
     }
 }

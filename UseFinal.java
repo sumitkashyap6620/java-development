@@ -13,7 +13,7 @@ class B {
 
 class C extends B {
     //     void show(){
-//  not possible because in B already defined show method whicjh is final 
+//  not possible because in B already defined show method which is final 
     // }
 }
 public class UseFinal{
