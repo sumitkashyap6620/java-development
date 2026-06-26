@@ -30,7 +30,7 @@
 // }
 // }
 
-                                     //  By using abstract class 
+                                     //  By using Interface
 //               |
 //               |
 
