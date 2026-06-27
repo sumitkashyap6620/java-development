@@ -1,6 +1,6 @@
 @java.lang.FunctionalInterface
 interface A {
- void show(int a );
+ int show(int a , int b );
 }
 public class FunctionalInterface{
 public static void main(String[] args) {
@@ -24,6 +24,25 @@ public static void main(String[] args) {
 
 //  using lemda expression 
 
-  A obj = (int a) -> System.out.println("In show "+a);
-         obj.show(5);
-} }
+//   A obj = (int a) -> System.out.println("In show "+a);
+//          obj.show(5);
+
+// multiple input in function and return sum 
+ 
+
+//     A obj = new A(){
+//        public int show (int a, int b){
+//         return a+b ;
+//         }
+// };
+//    System.out.println(obj.show(5, 4)); 
+// 
+
+
+// by using lemda expression
+
+  A obj = (a,b)->  a+b ;
+      System.out.println(obj.show(5, 4)); 
+}
+}
+ 
