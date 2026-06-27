@@ -1,6 +1,6 @@
 @java.lang.FunctionalInterface
 interface A {
- void show();
+ void show(int a );
 }
 public class FunctionalInterface{
 public static void main(String[] args) {
@@ -11,7 +11,19 @@ public static void main(String[] args) {
     // };
 
     // use lamda expression 
-    A obj = () -> System.out.println("hey in show");
-    obj.show();
-}
-}
+    // A obj = () -> System.out.println("hey in show");
+    // obj.show();
+
+    // taking input in sunction
+
+//     A obj = new A(){
+//        public void show (int a){
+//         System.out.println("In show "+a);
+//         }
+// };
+
+//  using lemda expression 
+
+  A obj = (int a) -> System.out.println("In show "+a);
+         obj.show(5);
+} }
