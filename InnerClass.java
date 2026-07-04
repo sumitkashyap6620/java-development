@@ -3,7 +3,8 @@ class A{
     void show(){
         System.out.println("Show method A ");
     }
-     /* static */  class B{
+     /* static */  
+     class B{
     void show(){
         System.out.println("show method B");
     }

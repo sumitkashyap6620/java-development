@@ -4,7 +4,7 @@
 public class advcal extends Calculator{
        public advcal(){
         //  by default function is super which called at the  time of object creation
-            super(2);
+           
       System.out.println("this is advance calculator");
     }
        public advcal(int n){

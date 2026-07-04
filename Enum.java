@@ -10,6 +10,7 @@ enum status {
 public class Enum{
     public static void main(String args[]){
       status sumit = status.verygood;
+      sumit.prise = 42 ;
      switch(sumit){
        case good :{
            System.out.println("GOOD : " + sumit.prise);
